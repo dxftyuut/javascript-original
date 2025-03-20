@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+body{
+background-color: rgb(107, 107, 241);
+}
+
+header {
+    color: #fff;
+}
+
+img {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+  }
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+}
+
+
+
+footer {
+    width: 500px;
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#res {
+    text-align: center;
+}

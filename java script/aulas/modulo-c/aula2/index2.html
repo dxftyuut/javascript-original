@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICK</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            line-height: 170px;
+            border: 1px solid black;
+            text-align: center;
+            background-color: rgba(172, 52, 52, 0.719);
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        <p>interaja...</p>
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area');
+        a.addEventListener('click', clicar);
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseout', sair);
+
+        function clicar() {
+            a.innerText = 'clicou';
+            a.style.background = 'darkred';
+        }
+
+        function entrar() {
+            a.innerText = 'entrou';
+            a.style.background = 'lightgray';
+        }
+
+        function sair() {
+            a.innerText = 'saiu';
+            a.style.background = 'green';
+        }
+    </script>
+</body>
+</html>

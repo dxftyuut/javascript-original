@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com dom</title>
+    <style>
+        body { 
+            background-color: rgba(24, 97, 52, 0.719);
+        }
+        h1, p, div {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 3em; margin: 0px; padding: 0px;">Dados</h1>
+
+    <script>
+      /* var corpo = window.document.body
+
+       var p1 = window.document.getElementsByName('p')[0]
+       p1.style.color = 'oranje'
+
+       let g = window.document.getElementById('aga1')
+        g.style.background = 'red'*/
+
+        let name = window.prompt('seu nome')
+        let idade = window.prompt('sua idade')
+        let estado = window.prompt('estado em que você mora')
+        let salario = window.prompt('seu salário')
+
+        let reidade = idade >= 15 && idade <= 17
+        reidade = document.write(reidade)
+
+        if (reidade) {
+    document.write(`${nome}, você tem entre 15 e 17 anos, mora no estado de ${estado} e seu salário é R$${salario}.`);
+} else {
+    document.write(`${nome}, você não tem entre 15 e 17 anos, mora no estado de ${estado} e seu salário é R$${salario}.`);
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "15dcd9a84486a8b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "55b0d16d9379254d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5363c9096fd723f4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "javascript.png"
+              },
+              "icon": "lucide-image",
+              "title": "javascript"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6dfe080cd0cbed42",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2eb5dbd9186a9ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db93ffd33f695426",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "8b61b6ad6c1505a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "a511ab07252eccdf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a6d92d0cae335d20",
+    "type": "split",
+    "children": [
+      {
+        "id": "e57d659b11c59639",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0fafec840e286f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "javascript.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para javascript"
+            }
+          },
+          {
+            "id": "3c13b5adb146c8a8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "javascript.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para javascript"
+            }
+          },
+          {
+            "id": "1ce33ca03173cae6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7f6f41c0b0590404",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "javascript.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de javascript"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "5363c9096fd723f4",
+  "lastOpenFiles": [
+    "javascript.md",
+    "javascript.png",
+    "Bem-vindo.md"
+  ]
+}

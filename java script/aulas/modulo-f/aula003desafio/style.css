@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+#res {
+    margin-top: 6px;
+}
 
 body{
     background-color: rgb(107, 107, 241);
@@ -23,8 +26,11 @@ body{
         margin: auto;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
     }
-    
-    
+
+    #lista {
+        width: 150px;
+        height: 100px;
+    }
     
     footer {
         width: 500px;

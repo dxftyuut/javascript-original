@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1>meu primeiro formulario</h1>
+    <p><a href="form002.html">form 2</a></p>
+
+
+    <form method="post" autocomplete="off" >
+        <p>  <label for="inome">nome: </label> <input type="text" name="nome" id="inome"></p>
+
+        <p><label for="isobrenome">sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" minlength="4" maxlength="50"></p>
+        <p><input type="button" value="enviar" onclick="juntarn(event)"></p>
+    </form>
+    <p id="nomecompleto"></p>
+    </div>
+
+    <script>
+        function juntarn(event) {
+        event.preventDefault();
+            let nome = document.getElementById('inome').value
+            let sobrenome = document.getElementById('isobrenome').value
+            let nomecompleto = document.getElementById('nomecompleto')
+
+            if (nome == 0 || sobrenome == 0) {
+                nomecompleto.innerHTML = 'coloque seu nome e sobrenome'
+            }  else {
+            nomecompleto.innerHTML = `seu nome completo e ${nome} ${sobrenome}`;
+        }
+           
+            }  
+
+    </script>
+</body>
+</html>
+

@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "55b0d16d9379254d",
+        "id": "42f267232524faa3",
         "type": "tabs",
         "children": [
           {
-            "id": "5363c9096fd723f4",
+            "id": "a1b2269c48ef7fe3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "javascript.png"
+                "file": "javascript/Aula001 mc.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "javascript"
+              "icon": "lucide-file",
+              "title": "Aula001 mc"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "a6d92d0cae335d20",
@@ -166,10 +168,19 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "5363c9096fd723f4",
+  "active": "a1b2269c48ef7fe3",
   "lastOpenFiles": [
-    "javascript.md",
+    "javascript/Aula003 mb.md",
+    "javascript/Aula002 mb.md",
+    "javascript/Aula001 mc.md",
+    "javascript/Aula001 mb.md",
+    "teacher.png",
+    "utf8.png",
+    "javascript/aula001 ma.md",
+    "javascript/javascript.md",
     "javascript.png",
-    "Bem-vindo.md"
+    "Bem-vindo.md",
+    "Sem título",
+    "javascript"
   ]
 }

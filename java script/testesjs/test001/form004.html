@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form004</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1>exemplo de formulario</h1>
+    <a href="form005.html">form005</a>
+
+    <form method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="isexom" value="M">
+            <label for="isexom">Masculino</label>
+            <input type="radio" name="sexo" id="isexof" value="f">
+            <label for="isexof">Feminino</label>
+        </fieldset>
+
+        <fieldset id="esportes">
+            <legend>esporte favorito</legend>
+            <input type="checkbox" name="bask" id="ibask"> <label for="ibask">Basquete</label><br>
+
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut">futebol</label><br>
+
+            <input type="checkbox" name="nata" id="inata"><label for="inata">Natação</label><br>
+
+            <input type="checkbox" name="tenis" id="itenis"><label for="itenis">tênis</label>
+        </fieldset>
+
+        <p>
+            <input type="button" value="enviar" onclick="resultado()">
+
+            <input type="reset" value="limpar">
+        </p>
+        <p id="tela"></p>
+
+    </form>
+    </div>
+    
+
+<script>
+    function resultado() {
+        let tela = document.getElementById('tela')
+        let checkboxes = document.querySelectorAll('#esportes input[type="checkbox"]');
+
+        // Verifica se pelo menos um checkbox está marcado
+        let selecionado = Array.from(checkboxes).some(checkbox => checkbox.checked);
+
+        if (!selecionado) {
+            window.alert('Escolha pelo menos um esporte');
+        } else {
+            tela.innerHTML = 'seu formulario foi enviado'
+        }
+    }
+</script>
+
+
+</body>
+</html>

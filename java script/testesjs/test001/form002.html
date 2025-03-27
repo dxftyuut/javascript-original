@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 2</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <div>
+    <h1>teste de formulario</h1>
+
+    <p>
+      <a href="form03.html">form 3</a>
+    </p>
+
+    
+
+  <form method="post">
+    <p>
+        <label for="iusu">usuario</label>
+        <input type="text" name="usu" id="iusu" required>
+    </p>
+    <p>
+        <label for="isen">senha</label>
+        <input type="password" name="sen" id="isen" required>
+    </p>
+    <p><input type="submit" value="enviar" onclick="enter(event)">  <input type="reset" value="limpar" required></p>
+    <p id="res"></p>
+    
+  </form>
+    </div>
+
+    <script>
+      function enter(event) {
+        event.preventDefault();
+        let name = document.getElementById('iusu').value
+        let senha = document.getElementById('isen').value
+        let res = document.getElementById('res')
+
+        if (name == 0 || senha ==0) {
+          window.alert('coloque as informações pedidas')
+        } else (senha == 123456); {
+          res.innerHTML = ('senha correta')
+        } if (senha != 123456) {
+          res.innerHTML = ('senha incorreta')
+        }
+
+         
+      }
+
+
+    </script>
+</body>
+</html>

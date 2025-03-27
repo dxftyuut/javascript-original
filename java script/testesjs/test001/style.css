@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+div {
+    background-color: #74d979de;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}

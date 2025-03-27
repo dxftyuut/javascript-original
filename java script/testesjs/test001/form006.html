@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form06</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1>form06</h1>
+    <a href="form001.html">pag 1</a>
+
+    <form method="get" autocomplete="on">
+
+        <p>
+            <label for="iano">em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano">
+        </p>
+
+        <p>
+            <input type="button" value="enviar" onclick="caulcular()">
+            <input type="reset" value="limpar">
+        </p>
+
+        <p id="resultado"></p>
+    </form>
+</div>
+
+<script>
+    function caulcular() {
+        let ano = document.getElementById('iano').value
+        let anoatual =  new Date().getFullYear();
+        let sub = anoatual - ano
+        let res = document.getElementById('resultado')
+
+    if ((ano < 1900) || (ano > anoatual )) {
+        res.innerHTML = 'essa data não e valida'
+    }  else {
+        res.innerHTML = `se você nasceu em ${ano} você tem ou vai fazer ${sub} anos no ano atual.`
+    }
+    }
+
+</script>
+
+</body>
+</html>

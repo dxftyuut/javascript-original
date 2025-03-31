@@ -1,0 +1,1 @@
+regEX significa expressão regular

@@ -12,14 +12,20 @@ function Contar() {
         let i = Number(ini.value)
         let f = Number(fim.value)
         let p = Number(passo.value)
-        
+        if (i < f) {
         for(let c = i; c <= f; c += p) {
-        res.innerHTML += `${c}🤟🏽 &nbsp;`
+        res.innerHTML += `${c}🤟🏽`
+    } 
+    } else{
+        for (let c = i ; c >= f; c -= p) {
+            res.innerHTML += `${c}🤟🏽`
+            
+        }
     }
     }
-
     
 
+    
 
 
 

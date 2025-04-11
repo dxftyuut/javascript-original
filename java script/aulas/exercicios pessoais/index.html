@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>contador</title>
+</head>
+<body>
+    <h1>contador</h1>
+
+    <div>
+        <p>inicío: <input type="number" name="ni" id="ni"></p>
+        <p>fim: <input type="number" name="nf" id="nf"></p>
+        <p>passo: <input type="number" name="passo" id="p"></p>
+        <p><input type="button" value="ver números" onclick="ver()"></p>
+        <p id="res"></p>
+    </div>
+    
+    <script>
+        function ver() {
+            let ni = Number(document.getElementById('ni').value);
+            let nf = Number(document.getElementById('nf').value);
+            let p = Number(document.getElementById('p').value);
+            let r = document.getElementById('res')
+
+            for (let n1 = ni; n1 <= nf; n1++) {
+
+                r.innerHTML = ``
+                
+            }
+
+
+        }
+    </script>
+
+</body>
+</html>

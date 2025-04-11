@@ -1,3 +1,7 @@
+console.log('Olá, Node.js!');
+
+console.log("Funcionou!");
+
 function Contar() {
 
     let ini = document.getElementById('txti')

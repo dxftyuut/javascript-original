@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>escolha a cor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="corpo">
+    <h1>Mudança de cor de fundo</h1>
+    
+    <div>
+        <p>
+            <input type="button" value="🟢" onclick="verde()">
+            <input type="button" value="🟡" onclick="amarelo()">
+        </p>
+        <p>
+            <input type="button" value="🔵" onclick="azul()">
+            <input type="button" value="🔴" onclick="vermelho()">
+        </p>
+    </div>
+
+    <script>
+        let c = document.getElementById('corpo')
+        function verde() {
+            c.style.backgroundColor = 'lightgreen'
+        }
+
+        function amarelo() {
+            c.style.backgroundColor = 'yellow'
+        }
+
+        function azul() {
+            c.style.backgroundColor = 'blue'
+        }
+
+        function vermelho() {
+            c.style.backgroundColor = 'red'
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(221, 174, 112);
+}
+
+div {
+    background-color: #fff;
+    min-width: 10px;
+    min-height: 200px;
+    border-radius: 10px;
+    margin: auto;
+}
+p {
+    
+    text-align: center;
+}
+#n {
+    padding-top: 50px;
+}
+#item {
+    margin-top: 10px;
+}

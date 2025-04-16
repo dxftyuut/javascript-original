@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(158, 116, 167);
+}
+
+div {
+    background-color: #fff;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    margin: auto;
+}
+p {
+    margin: 10px;
+    text-align: center;
+}
+#n {
+    padding-top: 50px;
+}
+#numero {
+    font-size: 100px;
+}

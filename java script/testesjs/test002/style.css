@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(221, 174, 112);
+}
+
+div {
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: auto;
+}
+p {
+    
+    text-align: center;
+}
+#n {
+    padding-top: 50px;
+}

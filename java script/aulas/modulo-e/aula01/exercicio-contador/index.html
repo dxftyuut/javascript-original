@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contador</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .contador {
+      font-size: 3em;
+      margin: 20px;
+    }
+    button {
+      font-size: 1.2em;
+      margin: 10px;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contador</h1>
+  <div class="contador" id="valor">0</div>
+  <button onclick="diminuir()">-</button>
+  <button onclick="aumentar()">+</button>
+
+  <script>
+    let contador = 0;
+
+    function atualizarContador() {
+      document.getElementById('valor').innerText = contador;
+    }
+
+    function aumentar() {
+      contador++;
+      atualizarContador();
+    }
+
+    function diminuir() {
+        if (contador > 0) {
+            contador--;
+      atualizarContador();
+        } else {
+            window.alert('nos não trabalhamos com números menores zero ou 0')
+        }
+      
+    }
+  </script>
+</body>
+</html>

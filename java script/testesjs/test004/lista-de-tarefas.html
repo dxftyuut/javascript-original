@@ -1,0 +1,36 @@
+<!-- Exercício 3: Lista de Tarefas
+Crie uma lista de tarefas (To-Do List). A pessoa digita uma tarefa e, ao clicar em "Adicionar", ela aparece numa lista abaixo com a opção de remover. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de tarefas</h1>
+    
+    <div>
+        <p>Nome do item: <input type="text" id="item"> </p>
+        <p><input type="button" value="Adicionar" onclick="adicionar()"></p>
+        <p id="res">sua lista <br></p>
+    </div>
+
+    <script>
+        function adicionar() {
+            let i = document.getElementById('item'); 
+            let r = document.getElementById('res');
+
+            r.innerHTML += `${i.value}<br>`
+            if (i.lengt > 100) {
+                r.innerHTML = '<br>'
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>

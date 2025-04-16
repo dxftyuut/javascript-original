@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+    
+    <div>
+        <p>Número 1: <input type="number" name="n1" id="n1"></p>
+        <p>Forma do cálculo (+, -, *, /, %): <input type="text" id="formula"></p>
+        <p>Número 2: <input type="number" name="n2" id="n2"></p>
+        <p><input type="button" value="Resultado" onclick="resultado()"></p>
+        <p id="mostrar"></p>
+    </div>
+
+    <script>
+        function resultado() {
+            let n1 = Number(document.getElementById("n1").value);
+            let n2 = Number(document.getElementById("n2").value);
+            let operacao = document.getElementById("formula").value;
+            let mos = document.getElementById("mostrar");
+            let res;
+
+            if (operacao === "+") {
+                res = n1 + n2;
+            } else if (operacao === "-") {
+                res = n1 - n2;
+            } else if (operacao === "*") {
+                res = n1 * n2;
+            } else if (operacao === "/") {
+                res = n1 / n2;
+            } else if (operacao === "%") {
+                res = n1 % n2;
+            } else {
+                res = "Operação inválida!";
+            }
+
+            mos.innerHTML = `Resultado: ${res}`;
+        }
+    </script>
+</body>
+</html>
